@@ -1,0 +1,8 @@
+-----------------------------------------------
+--1：创建项目后需要将zframework/config目录下的  roleConfig.lua,classContext.lua拷贝到app根目录下
+--2：对roleConfig.lua,classContext.lua进行对应的配置
+--3：MyApp.lua 在require("framework.init")后面加入  require("zframework.init")
+--4:以下可以对其相对应的继承
+--local MyApp = class("MyApp", zf.mvc.AppBase) 
+--local Model = class("Model",zf.mvc.ModelBase)
+--local View=class("View",zf.mvc.Viewbase)
